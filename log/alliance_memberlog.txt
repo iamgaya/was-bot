@@ -1,0 +1,22 @@
+[2025-03-15 13:18:23] Task exception was never retrieved
+future: <Task finished name='discord-ext-tasks: Control.monitor_alliance_changes' coro=<Loop._loop() done, defined at /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/discord/ext/tasks/__init__.py:207> exception=RuntimeError('Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/discord/ext/tasks/__init__.py", line 209, in _loop
+    await self._call_loop_function('before_loop')
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/discord/ext/tasks/__init__.py", line 193, in _call_loop_function
+    await coro(self._injected, *args, **kwargs)
+  File "/Users/utkarshsharma/Documents/whiteout/Whiteout-Survival-Discord-Bot/cogs/control.py", line 498, in before_monitor_alliance_changes
+    await self.bot.wait_until_ready()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/discord/client.py", line 1203, in wait_until_ready
+    raise RuntimeError(
+RuntimeError: Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method
+[2025-03-17 09:53:15] No data found for fid: 2333
+[2025-03-17 09:53:15] API Response: {'code': 1, 'msg': 'role not exist.', 'data': [], 'err_code': 40004}
+[2025-04-15 09:11:57] Successfully added member - FID: 391261089, Nickname: Doomie, Level: 25
+[2025-04-15 09:11:57] API Response: {'code': 0, 'data': {'fid': 391261089, 'nickname': 'Doomie', 'kid': 2280, 'stove_lv': 25, 'stove_lv_content': 25, 'avatar_image': 'https://gof-formal-avatar.akamaized.net/avatar/2025/04/14/NrE0Mz_1744653113.png', 'total_recharge_amount': 0}, 'msg': 'success', 'err_code': ''}
+[2025-04-15 09:12:34] Successfully added member - FID: 435697123, Nickname: flower, Level: 12
+[2025-04-15 09:12:34] API Response: {'code': 0, 'data': {'fid': 435697123, 'nickname': 'flower', 'kid': 2280, 'stove_lv': 12, 'stove_lv_content': 12, 'avatar_image': 'https://gof-formal-avatar.akamaized.net/avatar/2025/04/13/408WX0_1744568851.png', 'total_recharge_amount': 0}, 'msg': 'success', 'err_code': ''}
+[2025-04-15 11:32:47] Successfully added member - FID: 353865403, Nickname: AlaskanHunter, Level: 30
+[2025-04-15 11:32:47] API Response: {'code': 0, 'data': {'fid': 353865403, 'nickname': 'AlaskanHunter', 'kid': 2280, 'stove_lv': 30, 'stove_lv_content': 30, 'avatar_image': 'https://gof-formal-avatar.akamaized.net/avatar/2025/04/14/1NvK8G_1744661397.png', 'total_recharge_amount': 0}, 'msg': 'success', 'err_code': ''}
+[2025-04-15 12:36:32] Successfully added member - FID: 353684857, Nickname: ABdon, Level: 28
+[2025-04-15 12:36:32] API Response: {'code': 0, 'data': {'fid': 353684857, 'nickname': 'ABdon', 'kid': 2280, 'stove_lv': 28, 'stove_lv_content': 28, 'avatar_image': 'https://gof-formal-avatar.akamaized.net/avatar-dev/2023/07/17/1013.png', 'total_recharge_amount': 0}, 'msg': 'success', 'err_code': ''}

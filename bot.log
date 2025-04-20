@@ -1,0 +1,499 @@
+2025-03-17 09:59:39,041 - bot - INFO - [32mrequirements.txt file generated.[0m
+2025-03-17 09:59:39,042 - bot - INFO - Please install required packages using: pip install -r requirements.txt
+2025-03-17 09:59:39,042 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-17 09:59:39,042 - bot - INFO - [32mStarting bot...[0m
+2025-03-17 09:59:39,042 - discord.client - INFO - logging in using static token
+2025-03-17 09:59:40,793 - bot - INFO - [32mAll database connections established successfully.[0m
+2025-03-17 09:59:40,815 - bot - INFO - [32mAll database tables initialized.[0m
+2025-03-17 09:59:40,817 - bot - INFO - Loaded extension: cogs.olddb
+2025-03-17 09:59:40,834 - bot - INFO - Loaded extension: cogs.control
+2025-03-17 09:59:40,835 - bot - INFO - Loaded extension: cogs.alliance
+2025-03-17 09:59:40,836 - bot - INFO - Loaded extension: cogs.alliance_member_operations
+2025-03-17 09:59:40,838 - bot - INFO - Loaded extension: cogs.bot_operations
+2025-03-17 09:59:40,839 - bot - INFO - Loaded extension: cogs.logsystem
+2025-03-17 09:59:40,839 - bot - INFO - Loaded extension: cogs.support_operations
+2025-03-17 09:59:40,855 - bot - INFO - Loaded extension: cogs.gift_operations
+2025-03-17 09:59:40,856 - bot - INFO - Loaded extension: cogs.changes
+2025-03-17 09:59:40,857 - bot - INFO - Loaded extension: cogs.w
+2025-03-17 09:59:40,857 - bot - INFO - Loaded extension: cogs.wel
+2025-03-17 09:59:40,858 - bot - INFO - Loaded extension: cogs.other_features
+2025-03-17 09:59:40,861 - bot - INFO - Loaded extension: cogs.bear_trap
+2025-03-17 09:59:40,862 - bot - INFO - Loaded extension: cogs.id_channel
+2025-03-17 09:59:40,899 - bot - INFO - Loaded extension: cogs.backup_operations
+2025-03-17 09:59:40,900 - bot - INFO - Loaded extension: cogs.bear_trap_editor
+2025-03-17 09:59:41,706 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1c165682e3c86e920f8addf2bffa6eaf).
+2025-03-17 09:59:43,714 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-17 09:59:43,716 - bot - ERROR - Error in on_ready: Task is already launched and is not completed.
+2025-03-17 09:59:43,716 - discord.client - ERROR - Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/utkarshsharma/Documents/whiteout/Whiteout-Survival-Discord-Bot/.venv/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/utkarshsharma/Documents/whiteout/Whiteout-Survival-Discord-Bot/cogs/control.py", line 397, in on_ready
+    self.monitor_alliance_changes.start()
+  File "/Users/utkarshsharma/Documents/whiteout/Whiteout-Survival-Discord-Bot/.venv/lib/python3.11/site-packages/discord/ext/tasks/__init__.py", line 400, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+2025-03-17 09:59:44,338 - bot - INFO - Synced 3 command(s)
+2025-03-17 10:03:10,203 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-17 10:03:10,204 - bot - INFO - [32mStarting bot...[0m
+2025-03-17 10:03:10,204 - discord.client - INFO - logging in using static token
+2025-03-17 10:03:11,114 - bot - INFO - [32mAll database connections established successfully.[0m
+2025-03-17 10:03:11,137 - bot - INFO - [32mAll database tables initialized.[0m
+2025-03-17 10:03:11,139 - bot - INFO - Loaded extension: cogs.olddb
+2025-03-17 10:03:11,158 - bot - INFO - Loaded extension: cogs.control
+2025-03-17 10:03:11,160 - bot - INFO - Loaded extension: cogs.alliance
+2025-03-17 10:03:11,161 - bot - INFO - Loaded extension: cogs.alliance_member_operations
+2025-03-17 10:03:11,161 - bot - INFO - Loaded extension: cogs.bot_operations
+2025-03-17 10:03:11,162 - bot - INFO - Loaded extension: cogs.logsystem
+2025-03-17 10:03:11,163 - bot - INFO - Loaded extension: cogs.support_operations
+2025-03-17 10:03:11,178 - bot - INFO - Loaded extension: cogs.gift_operations
+2025-03-17 10:03:11,179 - bot - INFO - Loaded extension: cogs.changes
+2025-03-17 10:03:11,180 - bot - INFO - Loaded extension: cogs.w
+2025-03-17 10:03:11,180 - bot - INFO - Loaded extension: cogs.wel
+2025-03-17 10:03:11,181 - bot - INFO - Loaded extension: cogs.other_features
+2025-03-17 10:03:11,184 - bot - INFO - Loaded extension: cogs.bear_trap
+2025-03-17 10:03:11,185 - bot - INFO - Loaded extension: cogs.id_channel
+2025-03-17 10:03:11,217 - bot - INFO - Loaded extension: cogs.backup_operations
+2025-03-17 10:03:11,217 - bot - INFO - Loaded extension: cogs.bear_trap_editor
+2025-03-17 10:03:11,958 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 940c4516c760cc5179f668c667bcaa1b).
+2025-03-17 10:03:13,967 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-17 10:03:14,526 - bot - INFO - Synced 3 command(s)
+2025-03-17 10:20:56,504 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-17 10:20:56,505 - bot - INFO - [32mStarting bot...[0m
+2025-03-17 10:20:56,505 - discord.client - INFO - logging in using static token
+2025-03-17 10:20:57,445 - bot - INFO - [32mAll database connections established successfully.[0m
+2025-03-17 10:20:57,468 - bot - INFO - [32mAll database tables initialized.[0m
+2025-03-17 10:20:57,469 - bot - INFO - Loaded extension: cogs.olddb
+2025-03-17 10:20:57,487 - bot - INFO - Loaded extension: cogs.control
+2025-03-17 10:20:57,496 - bot - INFO - Loaded extension: cogs.alliance
+2025-03-17 10:20:57,497 - bot - INFO - Loaded extension: cogs.alliance_member_operations
+2025-03-17 10:20:57,497 - bot - INFO - Loaded extension: cogs.bot_operations
+2025-03-17 10:20:57,498 - bot - INFO - Loaded extension: cogs.logsystem
+2025-03-17 10:20:57,499 - bot - INFO - Loaded extension: cogs.support_operations
+2025-03-17 10:20:57,514 - bot - INFO - Loaded extension: cogs.gift_operations
+2025-03-17 10:20:57,515 - bot - INFO - Loaded extension: cogs.changes
+2025-03-17 10:20:57,516 - bot - INFO - Loaded extension: cogs.w
+2025-03-17 10:20:57,517 - bot - INFO - Loaded extension: cogs.wel
+2025-03-17 10:20:57,517 - bot - INFO - Loaded extension: cogs.other_features
+2025-03-17 10:20:57,521 - bot - INFO - Loaded extension: cogs.bear_trap
+2025-03-17 10:20:57,523 - bot - INFO - Loaded extension: cogs.id_channel
+2025-03-17 10:20:57,555 - bot - INFO - Loaded extension: cogs.backup_operations
+2025-03-17 10:20:57,556 - bot - INFO - Loaded extension: cogs.bear_trap_editor
+2025-03-17 10:20:58,353 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 481d36db3d046a526935108bfb7e42bc).
+2025-03-17 10:21:00,361 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-17 10:21:00,847 - bot - INFO - Synced 3 command(s)
+2025-03-17 10:27:41,230 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-17 10:27:41,231 - bot - INFO - [32mStarting bot...[0m
+2025-03-17 10:27:41,231 - discord.client - INFO - logging in using static token
+2025-03-17 10:27:42,191 - bot - INFO - [32mAll database connections established successfully.[0m
+2025-03-17 10:27:42,212 - bot - INFO - [32mAll database tables initialized.[0m
+2025-03-17 10:27:42,213 - bot - INFO - Loaded extension: cogs.olddb
+2025-03-17 10:27:42,229 - bot - INFO - Loaded extension: cogs.control
+2025-03-17 10:27:42,237 - bot - INFO - Loaded extension: cogs.alliance
+2025-03-17 10:27:42,238 - bot - INFO - Loaded extension: cogs.alliance_member_operations
+2025-03-17 10:27:42,239 - bot - INFO - Loaded extension: cogs.bot_operations
+2025-03-17 10:27:42,240 - bot - INFO - Loaded extension: cogs.logsystem
+2025-03-17 10:27:42,240 - bot - INFO - Loaded extension: cogs.support_operations
+2025-03-17 10:27:42,256 - bot - INFO - Loaded extension: cogs.gift_operations
+2025-03-17 10:27:42,258 - bot - INFO - Loaded extension: cogs.changes
+2025-03-17 10:27:42,259 - bot - INFO - Loaded extension: cogs.w
+2025-03-17 10:27:42,260 - bot - INFO - Loaded extension: cogs.wel
+2025-03-17 10:27:42,260 - bot - INFO - Loaded extension: cogs.other_features
+2025-03-17 10:27:42,264 - bot - INFO - Loaded extension: cogs.bear_trap
+2025-03-17 10:27:42,265 - bot - INFO - Loaded extension: cogs.id_channel
+2025-03-17 10:27:42,303 - bot - INFO - Loaded extension: cogs.backup_operations
+2025-03-17 10:27:42,304 - bot - INFO - Loaded extension: cogs.bear_trap_editor
+2025-03-17 10:27:43,059 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 7f6ac26e3f26bb52d643f02f6c8534b1).
+2025-03-17 10:27:45,068 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-17 10:27:45,578 - bot - INFO - Synced 3 command(s)
+2025-03-17 10:29:40,266 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-17 10:29:40,267 - bot - INFO - [32mStarting bot...[0m
+2025-03-17 10:29:40,267 - discord.client - INFO - logging in using static token
+2025-03-17 10:29:41,291 - bot - INFO - [32mAll database connections established successfully.[0m
+2025-03-17 10:29:41,312 - bot - INFO - [32mAll database tables initialized.[0m
+2025-03-17 10:29:41,313 - bot - INFO - Loaded extension: cogs.olddb
+2025-03-17 10:29:41,331 - bot - INFO - Loaded extension: cogs.control
+2025-03-17 10:29:41,339 - bot - INFO - Loaded extension: cogs.alliance
+2025-03-17 10:29:41,339 - bot - INFO - Loaded extension: cogs.alliance_member_operations
+2025-03-17 10:29:41,341 - bot - INFO - Loaded extension: cogs.bot_operations
+2025-03-17 10:29:41,342 - bot - INFO - Loaded extension: cogs.logsystem
+2025-03-17 10:29:41,342 - bot - INFO - Loaded extension: cogs.support_operations
+2025-03-17 10:29:41,358 - bot - INFO - Loaded extension: cogs.gift_operations
+2025-03-17 10:29:41,359 - bot - INFO - Loaded extension: cogs.changes
+2025-03-17 10:29:41,360 - bot - INFO - Loaded extension: cogs.w
+2025-03-17 10:29:41,360 - bot - INFO - Loaded extension: cogs.wel
+2025-03-17 10:29:41,361 - bot - INFO - Loaded extension: cogs.other_features
+2025-03-17 10:29:41,364 - bot - INFO - Loaded extension: cogs.bear_trap
+2025-03-17 10:29:41,365 - bot - INFO - Loaded extension: cogs.id_channel
+2025-03-17 10:29:41,409 - bot - INFO - Loaded extension: cogs.backup_operations
+2025-03-17 10:29:41,409 - bot - INFO - Loaded extension: cogs.bear_trap_editor
+2025-03-17 10:29:42,217 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 6e02ee96321f6d075ddfb3963353cf70).
+2025-03-17 10:29:44,221 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-17 10:29:44,697 - bot - INFO - Synced 3 command(s)
+2025-03-17 10:36:24,233 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-17 10:36:24,234 - bot - INFO - [32mStarting bot...[0m
+2025-03-17 10:36:24,234 - discord.client - INFO - logging in using static token
+2025-03-17 10:36:25,126 - bot - INFO - [32mAll database connections established successfully.[0m
+2025-03-17 10:36:25,146 - bot - INFO - [32mAll database tables initialized.[0m
+2025-03-17 10:36:25,147 - bot - INFO - Loaded extension: cogs.olddb
+2025-03-17 10:36:25,161 - bot - INFO - Loaded extension: cogs.control
+2025-03-17 10:36:25,168 - bot - INFO - Loaded extension: cogs.alliance
+2025-03-17 10:36:25,169 - bot - INFO - Loaded extension: cogs.alliance_member_operations
+2025-03-17 10:36:25,169 - bot - INFO - Loaded extension: cogs.bot_operations
+2025-03-17 10:36:25,170 - bot - INFO - Loaded extension: cogs.logsystem
+2025-03-17 10:36:25,170 - bot - INFO - Loaded extension: cogs.support_operations
+2025-03-17 10:36:25,184 - bot - INFO - Loaded extension: cogs.gift_operations
+2025-03-17 10:36:25,185 - bot - INFO - Loaded extension: cogs.changes
+2025-03-17 10:36:25,185 - bot - INFO - Loaded extension: cogs.w
+2025-03-17 10:36:25,186 - bot - INFO - Loaded extension: cogs.wel
+2025-03-17 10:36:25,186 - bot - INFO - Loaded extension: cogs.other_features
+2025-03-17 10:36:25,189 - bot - INFO - Loaded extension: cogs.bear_trap
+2025-03-17 10:36:25,190 - bot - INFO - Loaded extension: cogs.id_channel
+2025-03-17 10:36:25,228 - bot - INFO - Loaded extension: cogs.backup_operations
+2025-03-17 10:36:25,229 - bot - INFO - Loaded extension: cogs.bear_trap_editor
+2025-03-17 10:36:26,045 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 18035566e0d84258f6d08d90a231e461).
+2025-03-17 10:36:28,057 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-17 10:36:28,623 - bot - INFO - Synced 3 command(s)
+2025-03-17 10:37:53,342 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-17 10:37:53,344 - bot - INFO - [32mStarting bot...[0m
+2025-03-17 10:37:53,344 - discord.client - INFO - logging in using static token
+2025-03-17 10:37:54,446 - bot - INFO - [32mAll database connections established successfully.[0m
+2025-03-17 10:37:54,467 - bot - INFO - [32mAll database tables initialized.[0m
+2025-03-17 10:37:54,468 - bot - INFO - Loaded extension: cogs.olddb
+2025-03-17 10:37:54,482 - bot - INFO - Loaded extension: cogs.control
+2025-03-17 10:37:54,490 - bot - INFO - Loaded extension: cogs.alliance
+2025-03-17 10:37:54,492 - bot - INFO - Loaded extension: cogs.alliance_member_operations
+2025-03-17 10:37:54,494 - bot - INFO - Loaded extension: cogs.bot_operations
+2025-03-17 10:37:54,495 - bot - INFO - Loaded extension: cogs.logsystem
+2025-03-17 10:37:54,495 - bot - INFO - Loaded extension: cogs.support_operations
+2025-03-17 10:37:54,513 - bot - INFO - Loaded extension: cogs.gift_operations
+2025-03-17 10:37:54,514 - bot - INFO - Loaded extension: cogs.changes
+2025-03-17 10:37:54,515 - bot - INFO - Loaded extension: cogs.w
+2025-03-17 10:37:54,516 - bot - INFO - Loaded extension: cogs.wel
+2025-03-17 10:37:54,516 - bot - INFO - Loaded extension: cogs.other_features
+2025-03-17 10:37:54,520 - bot - INFO - Loaded extension: cogs.bear_trap
+2025-03-17 10:37:54,521 - bot - INFO - Loaded extension: cogs.id_channel
+2025-03-17 10:37:54,561 - bot - INFO - Loaded extension: cogs.backup_operations
+2025-03-17 10:37:54,562 - bot - INFO - Loaded extension: cogs.bear_trap_editor
+2025-03-17 10:37:55,380 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 54d7b1a70e235fba89cd88165f711205).
+2025-03-17 10:37:57,400 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-17 10:37:57,909 - bot - INFO - Synced 3 command(s)
+2025-03-17 10:39:41,318 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-17 10:39:41,319 - bot - INFO - [32mStarting bot...[0m
+2025-03-17 10:39:41,320 - discord.client - INFO - logging in using static token
+2025-03-17 10:39:42,391 - bot - INFO - [32mAll database connections established successfully.[0m
+2025-03-17 10:39:42,547 - bot - INFO - [32mAll database tables initialized.[0m
+2025-03-17 10:39:42,551 - bot - INFO - Loaded extension: cogs.olddb
+2025-03-17 10:39:42,644 - bot - INFO - Loaded extension: cogs.control
+2025-03-17 10:39:42,670 - bot - INFO - Loaded extension: cogs.alliance
+2025-03-17 10:39:42,675 - bot - INFO - Loaded extension: cogs.alliance_member_operations
+2025-03-17 10:39:42,678 - bot - INFO - Loaded extension: cogs.bot_operations
+2025-03-17 10:39:42,681 - bot - INFO - Loaded extension: cogs.logsystem
+2025-03-17 10:39:42,682 - bot - INFO - Loaded extension: cogs.support_operations
+2025-03-17 10:39:42,741 - bot - INFO - Loaded extension: cogs.gift_operations
+2025-03-17 10:39:42,744 - bot - INFO - Loaded extension: cogs.changes
+2025-03-17 10:39:42,747 - bot - INFO - Loaded extension: cogs.w
+2025-03-17 10:39:42,754 - bot - INFO - Loaded extension: cogs.wel
+2025-03-17 10:39:42,755 - bot - INFO - Loaded extension: cogs.other_features
+2025-03-17 10:39:42,776 - bot - INFO - Loaded extension: cogs.bear_trap
+2025-03-17 10:39:42,782 - bot - INFO - Loaded extension: cogs.id_channel
+2025-03-17 10:39:43,046 - bot - INFO - Loaded extension: cogs.backup_operations
+2025-03-17 10:39:43,048 - bot - INFO - Loaded extension: cogs.bear_trap_editor
+2025-03-17 10:39:43,940 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: bd3562c788392f4a0975a68f99f6cc7b).
+2025-03-17 10:39:45,968 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-17 10:39:46,478 - bot - INFO - Synced 3 command(s)
+2025-03-17 10:58:39,528 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-17 10:58:39,529 - bot - INFO - [32mStarting bot...[0m
+2025-03-17 10:58:39,529 - discord.client - INFO - logging in using static token
+2025-03-17 10:58:40,604 - bot - INFO - [32mAll database connections established successfully.[0m
+2025-03-17 10:58:40,629 - bot - INFO - [32mAll database tables initialized.[0m
+2025-03-17 10:58:40,630 - bot - INFO - Loaded extension: cogs.olddb
+2025-03-17 10:58:40,650 - bot - INFO - Loaded extension: cogs.control
+2025-03-17 10:58:40,658 - bot - INFO - Loaded extension: cogs.alliance
+2025-03-17 10:58:40,659 - bot - INFO - Loaded extension: cogs.alliance_member_operations
+2025-03-17 10:58:40,659 - bot - INFO - Loaded extension: cogs.bot_operations
+2025-03-17 10:58:40,660 - bot - INFO - Loaded extension: cogs.logsystem
+2025-03-17 10:58:40,660 - bot - INFO - Loaded extension: cogs.support_operations
+2025-03-17 10:58:40,674 - bot - INFO - Loaded extension: cogs.gift_operations
+2025-03-17 10:58:40,675 - bot - INFO - Loaded extension: cogs.changes
+2025-03-17 10:58:40,676 - bot - INFO - Loaded extension: cogs.w
+2025-03-17 10:58:40,676 - bot - INFO - Loaded extension: cogs.wel
+2025-03-17 10:58:40,676 - bot - INFO - Loaded extension: cogs.other_features
+2025-03-17 10:58:40,680 - bot - INFO - Loaded extension: cogs.bear_trap
+2025-03-17 10:58:40,680 - bot - INFO - Loaded extension: cogs.id_channel
+2025-03-17 10:58:40,723 - bot - INFO - Loaded extension: cogs.backup_operations
+2025-03-17 10:58:40,724 - bot - INFO - Loaded extension: cogs.bear_trap_editor
+2025-03-17 10:58:41,543 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 8708809ce6b99f2677c55e48cf161c7d).
+2025-03-17 10:58:43,552 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-17 10:58:44,042 - bot - INFO - Synced 3 command(s)
+2025-03-17 11:33:48,413 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 8708809ce6b99f2677c55e48cf161c7d.
+2025-03-17 12:29:13,385 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 8708809ce6b99f2677c55e48cf161c7d.
+2025-03-17 12:41:06,778 - discord.gateway - INFO - Shard ID None session has been invalidated.
+2025-03-17 12:41:13,054 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 304eb5e1a6ff558fa9ad775d1ebb796d).
+2025-03-17 12:41:15,082 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-17 12:41:15,658 - bot - INFO - Synced 3 command(s)
+2025-03-17 12:44:00,048 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-17 12:44:00,049 - bot - INFO - [32mStarting bot...[0m
+2025-03-17 12:44:00,049 - discord.client - INFO - logging in using static token
+2025-03-17 12:44:01,203 - bot - INFO - [32mAll database connections established successfully.[0m
+2025-03-17 12:44:01,226 - bot - INFO - [32mAll database tables initialized.[0m
+2025-03-17 12:44:01,228 - bot - INFO - Loaded extension: cogs.olddb
+2025-03-17 12:44:01,246 - bot - INFO - Loaded extension: cogs.control
+2025-03-17 12:44:01,255 - bot - INFO - Loaded extension: cogs.alliance
+2025-03-17 12:44:01,256 - bot - INFO - Loaded extension: cogs.alliance_member_operations
+2025-03-17 12:44:01,257 - bot - INFO - Loaded extension: cogs.bot_operations
+2025-03-17 12:44:01,257 - bot - INFO - Loaded extension: cogs.logsystem
+2025-03-17 12:44:01,257 - bot - INFO - Loaded extension: cogs.support_operations
+2025-03-17 12:44:01,273 - bot - INFO - Loaded extension: cogs.gift_operations
+2025-03-17 12:44:01,279 - bot - INFO - Loaded extension: cogs.changes
+2025-03-17 12:44:01,280 - bot - INFO - Loaded extension: cogs.w
+2025-03-17 12:44:01,280 - bot - INFO - Loaded extension: cogs.wel
+2025-03-17 12:44:01,281 - bot - INFO - Loaded extension: cogs.other_features
+2025-03-17 12:44:01,284 - bot - INFO - Loaded extension: cogs.bear_trap
+2025-03-17 12:44:01,285 - bot - INFO - Loaded extension: cogs.id_channel
+2025-03-17 12:44:01,320 - bot - INFO - Loaded extension: cogs.backup_operations
+2025-03-17 12:44:01,321 - bot - INFO - Loaded extension: cogs.bear_trap_editor
+2025-03-17 12:44:02,114 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 5ff7143c9fbc555268d2fae6f8173dda).
+2025-03-17 12:44:04,130 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-17 12:44:04,785 - bot - INFO - Synced 3 command(s)
+2025-03-17 13:18:05,390 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 5ff7143c9fbc555268d2fae6f8173dda.
+2025-03-17 13:19:25,180 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 5ff7143c9fbc555268d2fae6f8173dda.
+2025-03-17 13:32:25,186 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-17 13:32:25,187 - bot - INFO - [32mStarting bot...[0m
+2025-03-17 13:32:25,187 - discord.client - INFO - logging in using static token
+2025-03-17 13:32:26,383 - bot - INFO - [32mAll database connections established successfully.[0m
+2025-03-17 13:32:26,406 - bot - INFO - [32mAll database tables initialized.[0m
+2025-03-17 13:32:26,407 - bot - INFO - Loaded extension: cogs.olddb
+2025-03-17 13:32:26,472 - bot - INFO - Loaded extension: cogs.control
+2025-03-17 13:32:26,476 - bot - INFO - Loaded extension: cogs.alliance
+2025-03-17 13:32:26,480 - bot - INFO - Loaded extension: cogs.alliance_member_operations
+2025-03-17 13:32:26,483 - bot - INFO - Loaded extension: cogs.bot_operations
+2025-03-17 13:32:26,484 - bot - INFO - Loaded extension: cogs.logsystem
+2025-03-17 13:32:26,485 - bot - INFO - Loaded extension: cogs.support_operations
+2025-03-17 13:32:26,506 - bot - INFO - Loaded extension: cogs.gift_operations
+2025-03-17 13:32:26,507 - bot - INFO - Loaded extension: cogs.changes
+2025-03-17 13:32:26,508 - bot - INFO - Loaded extension: cogs.w
+2025-03-17 13:32:26,509 - bot - INFO - Loaded extension: cogs.wel
+2025-03-17 13:32:26,511 - bot - INFO - Loaded extension: cogs.other_features
+2025-03-17 13:32:26,525 - bot - INFO - Loaded extension: cogs.bear_trap
+2025-03-17 13:32:26,528 - bot - INFO - Loaded extension: cogs.id_channel
+2025-03-17 13:32:26,700 - bot - INFO - Loaded extension: cogs.backup_operations
+2025-03-17 13:32:26,701 - bot - INFO - Loaded extension: cogs.bear_trap_editor
+2025-03-17 13:32:27,587 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 3c9418ed693cdec79a98c39574b22ed9).
+2025-03-17 13:32:29,665 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-17 13:32:30,207 - bot - INFO - Synced 3 command(s)
+2025-03-17 13:45:22,979 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-17 13:45:22,979 - bot - INFO - [32mStarting bot...[0m
+2025-03-17 13:45:22,979 - discord.client - INFO - logging in using static token
+2025-03-17 13:45:23,914 - bot - INFO - [32mAll database connections established successfully.[0m
+2025-03-17 13:45:23,940 - bot - INFO - [32mAll database tables initialized.[0m
+2025-03-17 13:45:23,942 - bot - INFO - Loaded extension: cogs.olddb
+2025-03-17 13:45:23,949 - bot - ERROR - Failed to load extension cogs.control: Extension 'cogs.control' raised an error: ModuleNotFoundError: No module named 'UserDetails'
+2025-03-17 13:45:23,951 - bot - INFO - Loaded extension: cogs.alliance
+2025-03-17 13:45:23,952 - bot - INFO - Loaded extension: cogs.alliance_member_operations
+2025-03-17 13:45:23,953 - bot - INFO - Loaded extension: cogs.bot_operations
+2025-03-17 13:45:23,954 - bot - INFO - Loaded extension: cogs.logsystem
+2025-03-17 13:45:23,954 - bot - INFO - Loaded extension: cogs.support_operations
+2025-03-17 13:45:23,972 - bot - INFO - Loaded extension: cogs.gift_operations
+2025-03-17 13:45:23,973 - bot - INFO - Loaded extension: cogs.changes
+2025-03-17 13:45:23,974 - bot - INFO - Loaded extension: cogs.w
+2025-03-17 13:45:23,975 - bot - INFO - Loaded extension: cogs.wel
+2025-03-17 13:45:23,975 - bot - INFO - Loaded extension: cogs.other_features
+2025-03-17 13:45:23,979 - bot - INFO - Loaded extension: cogs.bear_trap
+2025-03-17 13:45:23,979 - bot - INFO - Loaded extension: cogs.id_channel
+2025-03-17 13:45:24,021 - bot - INFO - Loaded extension: cogs.backup_operations
+2025-03-17 13:45:24,022 - bot - INFO - Loaded extension: cogs.bear_trap_editor
+2025-03-17 13:45:24,782 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 0fd9126fe4b9d596ad8344613fc64a23).
+2025-03-17 13:45:26,790 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-17 13:45:27,312 - bot - INFO - Synced 3 command(s)
+2025-03-17 13:50:51,898 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 0fd9126fe4b9d596ad8344613fc64a23.
+2025-03-17 13:51:58,499 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-17 13:51:58,499 - bot - INFO - [32mStarting bot...[0m
+2025-03-17 13:51:58,500 - discord.client - INFO - logging in using static token
+2025-03-17 13:51:59,583 - bot - INFO - [32mAll database connections established successfully.[0m
+2025-03-17 13:51:59,606 - bot - INFO - [32mAll database tables initialized.[0m
+2025-03-17 13:51:59,607 - bot - INFO - Loaded extension: cogs.olddb
+2025-03-17 13:51:59,609 - bot - ERROR - Failed to load extension cogs.control: Extension 'cogs.control' raised an error: ModuleNotFoundError: No module named 'UserDetails'
+2025-03-17 13:51:59,611 - bot - INFO - Loaded extension: cogs.alliance
+2025-03-17 13:51:59,612 - bot - INFO - Loaded extension: cogs.alliance_member_operations
+2025-03-17 13:51:59,613 - bot - INFO - Loaded extension: cogs.bot_operations
+2025-03-17 13:51:59,614 - bot - INFO - Loaded extension: cogs.logsystem
+2025-03-17 13:51:59,614 - bot - INFO - Loaded extension: cogs.support_operations
+2025-03-17 13:51:59,633 - bot - INFO - Loaded extension: cogs.gift_operations
+2025-03-17 13:51:59,634 - bot - INFO - Loaded extension: cogs.changes
+2025-03-17 13:51:59,634 - bot - INFO - Loaded extension: cogs.w
+2025-03-17 13:51:59,635 - bot - INFO - Loaded extension: cogs.wel
+2025-03-17 13:51:59,635 - bot - INFO - Loaded extension: cogs.other_features
+2025-03-17 13:51:59,639 - bot - INFO - Loaded extension: cogs.bear_trap
+2025-03-17 13:51:59,640 - bot - INFO - Loaded extension: cogs.id_channel
+2025-03-17 13:51:59,674 - bot - INFO - Loaded extension: cogs.backup_operations
+2025-03-17 13:51:59,675 - bot - INFO - Loaded extension: cogs.bear_trap_editor
+2025-03-17 13:52:00,545 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: e5455415b58cef9a23160a4d7d820dd8).
+2025-03-17 13:52:02,576 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-17 13:52:03,060 - bot - INFO - Synced 3 command(s)
+2025-03-17 13:54:03,763 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-17 13:54:03,764 - bot - INFO - [32mStarting bot...[0m
+2025-03-17 13:54:03,764 - discord.client - INFO - logging in using static token
+2025-03-17 13:54:04,630 - bot - INFO - [32mAll database connections established successfully.[0m
+2025-03-17 13:54:04,631 - bot - INFO - [32mAll database tables initialized.[0m
+2025-03-17 13:54:04,632 - bot - INFO - Loaded extension: cogs.olddb
+2025-03-17 13:54:04,634 - bot - ERROR - Failed to load extension cogs.control: Extension 'cogs.control' raised an error: ModuleNotFoundError: No module named 'UserDetails'
+2025-03-17 13:54:04,635 - bot - INFO - Loaded extension: cogs.alliance
+2025-03-17 13:54:04,638 - bot - INFO - Loaded extension: cogs.alliance_member_operations
+2025-03-17 13:54:04,638 - bot - INFO - Loaded extension: cogs.bot_operations
+2025-03-17 13:54:04,639 - bot - INFO - Loaded extension: cogs.logsystem
+2025-03-17 13:54:04,639 - bot - INFO - Loaded extension: cogs.support_operations
+2025-03-17 13:54:04,660 - bot - INFO - Loaded extension: cogs.gift_operations
+2025-03-17 13:54:04,662 - bot - INFO - Loaded extension: cogs.changes
+2025-03-17 13:54:04,663 - bot - INFO - Loaded extension: cogs.w
+2025-03-17 13:54:04,666 - bot - INFO - Loaded extension: cogs.wel
+2025-03-17 13:54:04,667 - bot - INFO - Loaded extension: cogs.other_features
+2025-03-17 13:54:04,672 - bot - INFO - Loaded extension: cogs.bear_trap
+2025-03-17 13:54:04,674 - bot - INFO - Loaded extension: cogs.id_channel
+2025-03-17 13:54:04,879 - bot - INFO - Loaded extension: cogs.backup_operations
+2025-03-17 13:54:04,880 - bot - INFO - Loaded extension: cogs.bear_trap_editor
+2025-03-17 13:54:05,802 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 86106c1eb7d11d16163b1d4efd6d0725).
+2025-03-17 13:54:07,814 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-17 13:54:08,328 - bot - INFO - Synced 3 command(s)
+2025-03-17 13:56:49,621 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-17 13:56:49,622 - bot - INFO - [32mStarting bot...[0m
+2025-03-17 13:56:49,622 - discord.client - INFO - logging in using static token
+2025-03-17 13:56:50,551 - bot - INFO - [32mAll database connections established successfully.[0m
+2025-03-17 13:56:50,581 - bot - INFO - [32mAll database tables initialized.[0m
+2025-03-17 13:56:50,582 - bot - INFO - Loaded extension: cogs.olddb
+2025-03-17 13:56:50,584 - bot - ERROR - Failed to load extension cogs.control: Extension 'cogs.control' raised an error: ModuleNotFoundError: No module named 'UserDetails'
+2025-03-17 13:56:50,585 - bot - INFO - Loaded extension: cogs.alliance
+2025-03-17 13:56:50,587 - bot - INFO - Loaded extension: cogs.alliance_member_operations
+2025-03-17 13:56:50,588 - bot - INFO - Loaded extension: cogs.bot_operations
+2025-03-17 13:56:50,589 - bot - INFO - Loaded extension: cogs.logsystem
+2025-03-17 13:56:50,589 - bot - INFO - Loaded extension: cogs.support_operations
+2025-03-17 13:56:50,607 - bot - INFO - Loaded extension: cogs.gift_operations
+2025-03-17 13:56:50,608 - bot - INFO - Loaded extension: cogs.changes
+2025-03-17 13:56:50,609 - bot - INFO - Loaded extension: cogs.w
+2025-03-17 13:56:50,609 - bot - INFO - Loaded extension: cogs.wel
+2025-03-17 13:56:50,610 - bot - INFO - Loaded extension: cogs.other_features
+2025-03-17 13:56:50,613 - bot - INFO - Loaded extension: cogs.bear_trap
+2025-03-17 13:56:50,614 - bot - INFO - Loaded extension: cogs.id_channel
+2025-03-17 13:56:50,939 - bot - INFO - Loaded extension: cogs.backup_operations
+2025-03-17 13:56:50,939 - bot - INFO - Loaded extension: cogs.bear_trap_editor
+2025-03-17 13:56:51,677 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 6b5a6c46a656a19da7d843d652d0b090).
+2025-03-17 13:56:53,682 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-17 13:56:54,168 - bot - INFO - Synced 3 command(s)
+2025-03-17 15:02:33,138 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 6b5a6c46a656a19da7d843d652d0b090.
+2025-03-17 15:33:11,152 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 6b5a6c46a656a19da7d843d652d0b090.
+2025-03-17 15:36:15,738 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 6b5a6c46a656a19da7d843d652d0b090.
+2025-03-17 15:37:15,542 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 6b5a6c46a656a19da7d843d652d0b090.
+2025-03-17 16:01:35,481 - urllib3.connectionpool - WARNING - Retrying (Retry(total=19, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112042e90>: Failed to resolve 'wos-giftcode-api.centurygame.com' ([Errno 8] nodename nor servname provided, or not known)")': /api/player
+2025-03-17 16:01:37,491 - urllib3.connectionpool - WARNING - Retrying (Retry(total=18, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112042f90>: Failed to resolve 'wos-giftcode-api.centurygame.com' ([Errno 8] nodename nor servname provided, or not known)")': /api/player
+2025-03-17 16:01:41,496 - urllib3.connectionpool - WARNING - Retrying (Retry(total=17, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112040750>: Failed to resolve 'wos-giftcode-api.centurygame.com' ([Errno 8] nodename nor servname provided, or not known)")': /api/player
+2025-03-17 16:01:49,504 - urllib3.connectionpool - WARNING - Retrying (Retry(total=16, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11200f7d0>: Failed to resolve 'wos-giftcode-api.centurygame.com' ([Errno 8] nodename nor servname provided, or not known)")': /api/player
+2025-03-17 16:02:00,915 - discord.gateway - WARNING - Shard ID None has stopped responding to the gateway. Closing and restarting.
+2025-03-17 16:02:05,514 - urllib3.connectionpool - WARNING - Retrying (Retry(total=15, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11200dd10>: Failed to resolve 'wos-giftcode-api.centurygame.com' ([Errno 8] nodename nor servname provided, or not known)")': /api/player
+2025-03-17 16:02:37,535 - urllib3.connectionpool - WARNING - Retrying (Retry(total=14, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107f6d310>: Failed to resolve 'wos-giftcode-api.centurygame.com' ([Errno 8] nodename nor servname provided, or not known)")': /api/player
+2025-03-17 16:03:41,563 - urllib3.connectionpool - WARNING - Retrying (Retry(total=13, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107f6e7d0>: Failed to resolve 'wos-giftcode-api.centurygame.com' ([Errno 8] nodename nor servname provided, or not known)")': /api/player
+2025-03-17 16:05:41,593 - urllib3.connectionpool - WARNING - Retrying (Retry(total=12, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107fa6810>: Failed to resolve 'wos-giftcode-api.centurygame.com' ([Errno 8] nodename nor servname provided, or not known)")': /api/player
+2025-03-17 16:07:41,705 - urllib3.connectionpool - WARNING - Retrying (Retry(total=11, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107fa4510>: Failed to resolve 'wos-giftcode-api.centurygame.com' ([Errno 8] nodename nor servname provided, or not known)")': /api/player
+2025-03-17 16:09:41,909 - urllib3.connectionpool - WARNING - Retrying (Retry(total=10, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11204c890>: Failed to resolve 'wos-giftcode-api.centurygame.com' ([Errno 8] nodename nor servname provided, or not known)")': /api/player
+2025-03-17 16:11:41,952 - urllib3.connectionpool - WARNING - Retrying (Retry(total=9, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11204c4d0>: Failed to resolve 'wos-giftcode-api.centurygame.com' ([Errno 8] nodename nor servname provided, or not known)")': /api/player
+2025-03-17 16:13:42,011 - urllib3.connectionpool - WARNING - Retrying (Retry(total=8, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11204d210>: Failed to resolve 'wos-giftcode-api.centurygame.com' ([Errno 8] nodename nor servname provided, or not known)")': /api/player
+2025-03-17 16:15:42,045 - urllib3.connectionpool - WARNING - Retrying (Retry(total=7, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107f5dc90>: Failed to resolve 'wos-giftcode-api.centurygame.com' ([Errno 8] nodename nor servname provided, or not known)")': /api/player
+2025-03-17 16:15:44,236 - discord.gateway - INFO - Shard ID None session has been invalidated.
+2025-03-17 16:15:50,346 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1f61a202a1d076d47fd3c75a5a92bd51).
+2025-03-17 16:15:52,379 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-17 16:15:52,973 - bot - INFO - Synced 3 command(s)
+2025-03-17 16:31:52,347 - discord.gateway - INFO - Shard ID None session has been invalidated.
+2025-03-17 16:31:58,550 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: a4a2c50e870f01418396523a5c46a401).
+2025-03-17 16:32:00,568 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-17 16:32:01,164 - bot - INFO - Synced 3 command(s)
+2025-03-17 16:49:55,235 - discord.gateway - INFO - Shard ID None session has been invalidated.
+2025-03-17 16:50:01,380 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 64cdb3879d2a470c5f7287acd9f27839).
+2025-03-17 16:50:03,396 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-17 16:59:07,590 - bot - INFO - Synced 3 command(s)
+2025-03-17 16:59:24,878 - discord.gateway - INFO - Shard ID None session has been invalidated.
+2025-03-17 16:59:30,965 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: dd4337069f8ed00ca5e3d889e4e8a613).
+2025-03-17 16:59:32,996 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-17 17:00:07,522 - bot - INFO - Synced 3 command(s)
+2025-03-17 20:22:40,510 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-17 20:22:40,510 - bot - INFO - [32mStarting bot...[0m
+2025-03-17 20:22:40,510 - discord.client - INFO - logging in using static token
+2025-03-17 20:22:41,959 - bot - INFO - [32mAll database connections established successfully.[0m
+2025-03-17 20:22:41,962 - bot - INFO - [32mAll database tables initialized.[0m
+2025-03-17 20:22:41,965 - bot - INFO - Loaded extension: cogs.olddb
+2025-03-17 20:22:41,969 - bot - ERROR - Failed to load extension cogs.control: Extension 'cogs.control' raised an error: ModuleNotFoundError: No module named 'UserDetails'
+2025-03-17 20:22:41,973 - bot - INFO - Loaded extension: cogs.alliance
+2025-03-17 20:22:41,988 - bot - INFO - Loaded extension: cogs.alliance_member_operations
+2025-03-17 20:22:41,989 - bot - INFO - Loaded extension: cogs.bot_operations
+2025-03-17 20:22:41,990 - bot - INFO - Loaded extension: cogs.logsystem
+2025-03-17 20:22:41,990 - bot - INFO - Loaded extension: cogs.support_operations
+2025-03-17 20:22:42,014 - bot - INFO - Loaded extension: cogs.gift_operations
+2025-03-17 20:22:42,015 - bot - INFO - Loaded extension: cogs.changes
+2025-03-17 20:22:42,016 - bot - INFO - Loaded extension: cogs.w
+2025-03-17 20:22:42,017 - bot - INFO - Loaded extension: cogs.wel
+2025-03-17 20:22:42,017 - bot - INFO - Loaded extension: cogs.other_features
+2025-03-17 20:22:42,021 - bot - INFO - Loaded extension: cogs.bear_trap
+2025-03-17 20:22:42,022 - bot - INFO - Loaded extension: cogs.id_channel
+2025-03-17 20:22:42,217 - bot - INFO - Loaded extension: cogs.backup_operations
+2025-03-17 20:22:42,217 - bot - INFO - Loaded extension: cogs.bear_trap_editor
+2025-03-17 20:22:43,551 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: eef2edc2bfc95bd3ab28b2e52f694ab9).
+2025-03-17 20:22:45,558 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-17 20:22:46,168 - bot - INFO - Synced 3 command(s)
+2025-03-25 19:39:09,987 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-25 19:39:09,988 - bot - INFO - [32mStarting bot...[0m
+2025-03-25 19:39:09,988 - discord.client - INFO - logging in using static token
+2025-03-25 19:39:10,998 - bot - INFO - [32mAll database connections established successfully.[0m
+2025-03-25 19:39:11,022 - bot - INFO - [32mAll database tables initialized.[0m
+2025-03-25 19:39:11,023 - bot - INFO - Loaded extension: cogs.olddb
+2025-03-25 19:39:11,024 - bot - ERROR - Failed to load extension cogs.control: Extension 'cogs.control' raised an error: ModuleNotFoundError: No module named 'UserDetails'
+2025-03-25 19:39:11,026 - bot - INFO - Loaded extension: cogs.alliance
+2025-03-25 19:39:11,027 - bot - ERROR - Failed to load extension cogs.alliance_member_operations: Extension 'cogs.alliance_member_operations' raised an error: SyntaxError: invalid decimal literal (alliance_member_operations.py, line 21)
+2025-03-25 19:39:11,028 - bot - ERROR - Failed to load extension cogs.bot_operations: Extension 'cogs.bot_operations' raised an error: SyntaxError: invalid decimal literal (alliance_member_operations.py, line 21)
+2025-03-25 19:39:11,028 - bot - ERROR - Failed to load extension cogs.logsystem: Extension 'cogs.logsystem' raised an error: SyntaxError: invalid decimal literal (alliance_member_operations.py, line 21)
+2025-03-25 19:39:11,029 - bot - INFO - Loaded extension: cogs.support_operations
+2025-03-25 19:39:11,030 - bot - ERROR - Failed to load extension cogs.gift_operations: Extension 'cogs.gift_operations' raised an error: SyntaxError: invalid decimal literal (alliance_member_operations.py, line 21)
+2025-03-25 19:39:11,031 - bot - ERROR - Failed to load extension cogs.changes: Extension 'cogs.changes' raised an error: SyntaxError: invalid decimal literal (alliance_member_operations.py, line 21)
+2025-03-25 19:39:11,031 - bot - INFO - Loaded extension: cogs.w
+2025-03-25 19:39:11,032 - bot - INFO - Loaded extension: cogs.wel
+2025-03-25 19:39:11,032 - bot - INFO - Loaded extension: cogs.other_features
+2025-03-25 19:39:11,037 - bot - INFO - Loaded extension: cogs.bear_trap
+2025-03-25 19:39:11,038 - bot - INFO - Loaded extension: cogs.id_channel
+2025-03-25 19:39:11,133 - bot - INFO - Loaded extension: cogs.backup_operations
+2025-03-25 19:39:11,134 - bot - INFO - Loaded extension: cogs.bear_trap_editor
+2025-03-25 19:39:11,903 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: e8abf617652d62d8adb0a6cdf2e57c8c).
+2025-03-25 19:39:13,910 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-25 19:39:14,409 - bot - INFO - Synced 3 command(s)
+2025-03-25 20:47:53,056 - discord.gateway - INFO - Shard ID None session has been invalidated.
+2025-03-25 20:47:59,119 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 82831e10767ded1909839a6e8072ac68).
+2025-03-25 20:48:01,150 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-25 20:48:02,463 - bot - INFO - Synced 3 command(s)
+2025-03-25 21:19:55,159 - discord.gateway - INFO - Shard ID None session has been invalidated.
+2025-03-25 21:20:01,363 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: ffbc7f6cdda99f34a475c0eb68bc0b4f).
+2025-03-25 21:20:03,369 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-25 21:20:04,617 - bot - INFO - Synced 3 command(s)
+2025-03-25 21:48:58,598 - discord.gateway - INFO - Shard ID None session has been invalidated.
+2025-03-25 21:49:05,845 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 3547352597afaea49c05c82dbd35e348).
+2025-03-25 21:49:07,850 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-25 21:49:08,666 - bot - INFO - Synced 3 command(s)
+2025-03-30 11:04:22,500 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-30 11:04:22,500 - bot - INFO - [32mStarting bot...[0m
+2025-03-30 11:04:22,500 - discord.client - INFO - logging in using static token
+2025-03-30 11:04:23,407 - bot - INFO - [32mAll database connections established successfully.[0m
+2025-03-30 11:04:23,408 - bot - INFO - [32mAll database tables initialized.[0m
+2025-03-30 11:04:23,409 - bot - INFO - Loaded extension: cogs.olddb
+2025-03-30 11:04:23,411 - bot - ERROR - Failed to load extension cogs.control: Extension 'cogs.control' raised an error: ModuleNotFoundError: No module named 'UserDetails'
+2025-03-30 11:04:23,413 - bot - INFO - Loaded extension: cogs.alliance
+2025-03-30 11:04:23,414 - bot - ERROR - Failed to load extension cogs.alliance_member_operations: Extension 'cogs.alliance_member_operations' raised an error: SyntaxError: invalid decimal literal (alliance_member_operations.py, line 21)
+2025-03-30 11:04:23,415 - bot - ERROR - Failed to load extension cogs.bot_operations: Extension 'cogs.bot_operations' raised an error: SyntaxError: invalid decimal literal (alliance_member_operations.py, line 21)
+2025-03-30 11:04:23,416 - bot - ERROR - Failed to load extension cogs.logsystem: Extension 'cogs.logsystem' raised an error: SyntaxError: invalid decimal literal (alliance_member_operations.py, line 21)
+2025-03-30 11:04:23,416 - bot - INFO - Loaded extension: cogs.support_operations
+2025-03-30 11:04:23,418 - bot - ERROR - Failed to load extension cogs.gift_operations: Extension 'cogs.gift_operations' raised an error: SyntaxError: invalid decimal literal (alliance_member_operations.py, line 21)
+2025-03-30 11:04:23,418 - bot - ERROR - Failed to load extension cogs.changes: Extension 'cogs.changes' raised an error: SyntaxError: invalid decimal literal (alliance_member_operations.py, line 21)
+2025-03-30 11:04:23,420 - bot - INFO - Loaded extension: cogs.w
+2025-03-30 11:04:23,421 - bot - INFO - Loaded extension: cogs.wel
+2025-03-30 11:04:23,421 - bot - INFO - Loaded extension: cogs.other_features
+2025-03-30 11:04:23,425 - bot - INFO - Loaded extension: cogs.bear_trap
+2025-03-30 11:04:23,426 - bot - INFO - Loaded extension: cogs.id_channel
+2025-03-30 11:04:23,640 - bot - INFO - Loaded extension: cogs.backup_operations
+2025-03-30 11:04:23,641 - bot - INFO - Loaded extension: cogs.bear_trap_editor
+2025-03-30 11:04:24,395 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 54376b7887a05775452030ba657e75c8).
+2025-03-30 11:04:26,399 - bot - INFO - [32mLogged in as [36mwhiteout-demo#3521[0m
+2025-03-30 11:04:26,881 - bot - INFO - Synced 3 command(s)
